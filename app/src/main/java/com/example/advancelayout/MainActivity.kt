@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AdvanceLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ActivitasPertama(
+                    ProfileSimpleScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
